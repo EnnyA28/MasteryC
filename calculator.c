@@ -45,15 +45,14 @@ int calculate_result(struct Reader *reader) {
                 default:
                     return -1;
             }
-            free_token(&val_b);
-            free_token(&val_a);
-            free_token(&op);
             struct Token *new_token = malloc(sizeof(struct Token));
             new_token->next = val_b->next;
             new_token->tok_type = TOK_NUM;
             new_token->val = new_val;
-
             head = new_token;
+            free_token(&val_b);
+            free_token(&val_a);
+            free_token(&op);
         }
         advance(reader);
     }

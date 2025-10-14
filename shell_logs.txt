@@ -1,0 +1,32 @@
+  485  make clean
+  486  make
+  487  ls -l ./mini_ci_reference 
+  488  chmod -x ./mini_ci_reference
+  489  ls -l ./mini_ci_reference 
+  490  make check
+  491  chmod +x ./mini_ci_reference 
+  492  make check
+  493  touch LogFile.txt
+  494  shell_commands
+  495  commands
+  496  shell_command
+  497  show commands
+  498  show command
+  499  run install-mh
+  500  install -mh
+  501  make
+  502  make check
+  503  ls -a ./mini_ci_reference 
+  504  ls -l ./mini_ci_reference
+  505  chmod +x ./mini_ci_reference 
+  506  ls -a ./mini_ci_reference 
+  507  ls -l ./mini_ci_reference 
+  508  make check
+  509  make clean
+  510  make debug
+  511  gdb mini_ci
+  512  make clean
+  513  make
+  514  make check
+  515  history
+  516  history > shell_logs.txt

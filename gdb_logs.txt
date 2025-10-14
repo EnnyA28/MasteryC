@@ -1,0 +1,9 @@
+run testcases/basic_add.s
+bt
+p new_token 
+p new_token -> next
+p val_b
+q
+show commands
+touch gdb_logs.txt
+q
